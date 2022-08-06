@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/netflix.png">
 </head>
 
 <body>
@@ -28,12 +29,12 @@
                     </div>
                     <div class="inputBox">
                         <label for="age">Age</label><br>
-                        <br>
+
                         <input type="number" name="age" id="age" placeholder="Enter Your Age">
                     </div>
                     <div class="inputBox">
                         <label for="email">Email</label><br>
-                        <br>
+
                         <input type="email" name="email" id="email" placeholder="Enter Your Email">
                     </div>
                     <div class="InputBox">
@@ -45,9 +46,10 @@
                         </select>
                     </div>
                     <div class="inputBox">
+                        <label for="checkbox">Movie Type</label><br>
                         <input type="checkbox" name="comedy" id="movieType1">
                         <label for="movieType1">Comedy</label><br>
-                        <input type="checkbox" name="comedy" id="movieType2">
+                        <input type="checkbox" name="action" id="movieType2">
                         <label for="movieType2">Action</label><br>
                         <input type="checkbox" name="romantic" id="movieType3">
                         <label for="movieType3">Romantic</label>
@@ -63,11 +65,11 @@
                     </div>
                     <div class="inputBox">
                         <label for="coment">Feed Back</label><br>
-                        <textarea name="" id="" cols="30" rows="10" maxlength="150"></textarea>
+                        <textarea name="coment" id="coment" cols="30" rows="10" maxlength="150"></textarea>
                     </div>
-                    <div>
+                    <div class="formSubmit">
                         <label for=""></label>
-                        <input type="submit">
+                        <input type="submit" id="send" value="Submit">
                     </div>
                 </form>
             </div>
