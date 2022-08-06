@@ -2,8 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
     background-image: url(./img/background_image.jpg);
+    color: white;
+}
+
+.container {
+    border: 1px solid red;
+    width: 80%;
+    margin: 3rem auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
 }

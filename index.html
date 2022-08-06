@@ -10,29 +10,64 @@
 </head>
 
 <body>
-    <div id="container">
-        <div id="title">
-            <div id="description">
-                <form action="" id="survey-form">
-                    <div class="box" id="text">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">
+                NET<span>FLIX</span>
+            </h1>
+            <h3 class="discription">
+                Thank you for sign up at Netflix. Tell us more about yourself
+            </h3>
+        </div>
+        <div class="surverFormContainer">
+            <div class="surveyForm">
+                <form action="">
+                    <div class="inputBox">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name">
                     </div>
-                    <div class="box" id="dropdown">
-
+                    <div class="inputBox">
+                        <label for="age">Age</label><br>
+                        <br>
+                        <input type="number" name="age" id="age" placeholder="Enter Your Age">
                     </div>
-
-                    <div class="box" id="checkbox">
-
+                    <div class="inputBox">
+                        <label for="email">Email</label><br>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email">
                     </div>
-                    <div class="box" id="radio">
-
+                    <div class="InputBox">
+                        <label for="content">Content Type</label><br>
+                        <select name="content" id="content">
+                            <option value="Movies">Movies</option>
+                            <option value="Series">Series</option>
+                            <option value="Documentary">Documentary</option>
+                        </select>
                     </div>
-                    <div class="box" id="text_area">
-
+                    <div class="inputBox">
+                        <input type="checkbox" name="comedy" id="movieType1">
+                        <label for="movieType1">Comedy</label><br>
+                        <input type="checkbox" name="comedy" id="movieType2">
+                        <label for="movieType2">Action</label><br>
+                        <input type="checkbox" name="romantic" id="movieType3">
+                        <label for="movieType3">Romantic</label>
+                    </div>
+                    <div class="inputBox">
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Other</label><br>
+                    </div>
+                    <div class="inputBox">
+                        <label for="coment">Feed Back</label><br>
+                        <textarea name="" id="" cols="30" rows="10" maxlength="150"></textarea>
+                    </div>
+                    <div>
+                        <label for=""></label>
+                        <input type="submit">
                     </div>
                 </form>
             </div>
